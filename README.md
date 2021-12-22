@@ -1,2 +1,1 @@
-https://shepitko.github.io/rsschool-cv/cv
-
+https://shepitko.github.io/rsschool-cv/
