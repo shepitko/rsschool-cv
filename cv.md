@@ -51,7 +51,7 @@ I think for understanding this doc will be enough
 ```
 
 ## Expirience
-You will see on Linkedin
+You will be able to see on Linkedin
 
 ## Education
 * NMetAU - Master Degree (Computer since)
@@ -60,3 +60,11 @@ Courses:
 * RubyGarage / Ruby course _offline_
 * MindStudios / Ruby course _offline_
 * JavaScript.Ninja / React course
+
+## English
+B1
+
+Courses:
+* 12project
+* FriendClub
+* Cambly subscription(65+ hours with native)
