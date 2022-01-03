@@ -1,0 +1,127 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: darkslategrey
+}
+
+a {
+  background: linear-gradient(to bottom, #27c2c7 0%, #27c2c7 100%);
+	background-position: 0 100%;
+	background-repeat: repeat-x;
+	background-size: 3px 3px;
+  color: rgb(53, 145, 182);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%2327c2c7' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-size: auto 6px;
+  background-repeat: repeat-x;
+  color: rgb(86, 172, 206);
+  text-decoration: none;
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+  width: 960px;
+  margin: 32px auto;
+  background: linear-gradient(to bottom, white, #88b1ce);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+}
+
+.container:hover{
+  box-shadow: 2px 4px 3px 1px rgba(0, 0, 0, 0.2),0px 1px 1px 0px rgba(0, 0, 0, 0.14),0px 1px 3px 0px rgba(0,0,0,.12);
+}
+
+
+.header {
+  display: flex;
+}
+
+.header > .right-side > .navbar > .navbar-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header > .right-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header h1 {
+  font-size: 72px;
+}
+
+
+.header > .right-side {
+  padding: 16px;
+}
+
+.main {
+  border-top: 1px solid #1a232a;
+  display: flex;
+}
+
+.main > .sidebar {
+  flex: 0 0 auto;
+  width: 250px;
+  background-color: #1a232a;
+  color:white;
+}
+
+.main > .sidebar  h2 {
+  color: #5d8aab
+}
+
+.main > .sidebar  a {
+  color: white
+}
+
+.section {
+  margin: 16px;
+  width: 90%;
+}
+
+.section > ul > li {
+  margin: 4px 0px 4px 8px;
+}
+
+.main > .content {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.footer {
+  width: 100%;
+  padding: 16px 0 ;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: auto;
+  border-top: 1px solid #1a232a;
+}
+
+.footer a {
+  color: black
+}
+
+pre {
+  margin: 8px 0;
+  background-color: #5d8aab;
+  border: 1px solid white;
+}
